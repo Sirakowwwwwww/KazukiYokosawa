@@ -124,7 +124,7 @@ footer a:hover {
 
 @media screen and (min-width: 641px) {
     .smartphone {
-        display: none;
+        display: none !important;
     }
 
     h1 {
