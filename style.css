@@ -42,6 +42,12 @@ footer {
     margin: 0;
 }
 
+@media screen and (min-width: 641px) {
+    .smartphone {
+        display: none;
+    }
+}
+
 h1 {
     font-family: 'Zen Old Mincho', serif;
     font-weight: 700;
@@ -54,67 +60,24 @@ h1 {
 h2 {
     font-family: 'Zen Old Mincho', serif;
     font-weight: 700;
-    text-align: left;
     color: #ff7575;
-    font-size: 1.8em;
-    margin-top: 20px;
-    margin-left: 25%;
 }
 
 h3 {
     text-align: left;
     color: #ffffff;
-    font-size: 1.2em;
     margin-top: 15px;
-}
-
-p.right {
-    text-align: left;
-    font-size: 1.0em;
-    color: #75fdff;
-    margin: 10px 0;
-    margin-left: 70%;
-}
-
-p.center2 {
-    text-align: left;
-    font-size: 1.0em;
-    color: #75fdff;
-    margin: 10px 0;
-    margin-left: 30%;
-}
-
-p.center {
-    text-align: center;
-    font-size: 1.0em;
-    color: #75fdff;
-    margin: 10px 0;
 }
 
 p {
     text-align: left;
-    font-size: 1.0em;
     color: #75fdff;
-    margin: 10px 25px;
 }
 
 a {
     color: rgb(253, 255, 117);
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.0em;
-    margin: 10px 25px;
-    border-bottom: 1px solid rgb(253, 255, 117);
-}
-
-a.center2 {
-    text-align: left;
-    color: rgb(253, 255, 117);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.0em;
-    margin: 10px 0;
-    margin-left: 30%;
     border-bottom: 1px solid rgb(253, 255, 117);
 }
 
@@ -124,43 +87,8 @@ a:hover {
 
 .warning {
     color: #ffffff;
-    font-size: 1.0em;
     text-align: left;
     margin-top: 20px;
-}
-
-video {
-    width: 60%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.videoComment {
-    text-align: center;
-    font-size: 0.8em;
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-img {
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-}
-
-table {
-    width: 90%;
-    border-collapse: collapse;
-    margin: 3% auto;
-}
-
-.only-title {
-    color: #75fdff;
-    font-weight: normal;
-    text-decoration: none;
-    border: none;
-    margin: 0;
 }
 
 .comment {
@@ -172,12 +100,195 @@ table {
 
 }
 
+.videoComment {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
 .footer-text {
     color: #bdd1ff;
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 
 footer a {
     color: #bdd1ff;
+    border: none;
+}
+
+footer a:hover {
     text-decoration: none;
+}
+
+.lie {
+    color: #75fdff;
+    font-weight: normal;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+}
+
+@media screen and (min-width: 641px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 2em;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p.right {
+        text-align: left;
+        font-size: 1.0em;
+        margin: 10px 0;
+        margin-left: 70%;
+    }
+
+    p.center2 {
+        text-align: left;
+        font-size: 1.0em;
+        margin: 10px 0;
+        margin-left: 20%;
+    }
+
+    a.center2 {
+        text-align: left;
+        font-size: 1.0em;
+        margin: 10px 0;
+        margin-left: 30%;
+    }
+
+    p {
+        font-size: 1.0em;
+        margin: 10px 25px;
+    }
+
+    a {
+        font-size: 1.0em;
+        margin: 10px 25px;
+    }
+
+    .warning {
+        font-size: 1.0em;
+    }
+
+    .comment {
+        font-size: 1.0em;
+    }
+
+    .videoComment {
+        font-size: 0.8em;
+        opacity: 1.0;
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+    }
+
+    .lie {
+        display: inline;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    h3 {
+        font-size: 1.0em;
+    }
+
+    p.right {
+        text-align: left;
+        font-size: 0.75em;
+        margin: 10px 0;
+        margin-left: 40%;
+        /* Adjusted for smaller screens */
+    }
+
+    p.center2 {
+        text-align: center;
+        font-size: 0.75em;
+        margin: 10px 0;
+    }
+
+    a.center2 {
+        text-align: left;
+        font-size: 0.75em;
+        margin: 10px 0;
+        margin-left: 20%;
+    }
+
+    p {
+        font-size: 0.75em;
+        margin: 10px 20px;
+    }
+
+    a {
+        font-size: 0.75em;
+        margin: 10px 20px;
+    }
+
+    .warning {
+        font-size: 0.75em;
+    }
+
+    .comment {
+        font-size: 0.5em;
+    }
+
+    .videoComment {
+        font-size: 0.5em;
+        margin-top: 0;
+        opacity: 0.8;
+    }
+
+    .footer-text {
+        font-size: 0.25em;
+        margin: 0;
+    }
+
+    .lie {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+video {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 3% auto;
 }
