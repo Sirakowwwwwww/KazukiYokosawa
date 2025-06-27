@@ -42,12 +42,6 @@ footer {
     margin: 0;
 }
 
-@media screen and (min-width: 641px) {
-    .smartphone {
-        display: none;
-    }
-}
-
 h1 {
     font-family: 'Zen Old Mincho', serif;
     font-weight: 700;
@@ -129,6 +123,10 @@ footer a:hover {
 }
 
 @media screen and (min-width: 641px) {
+    .smartphone {
+        display: none;
+    }
+
     h1 {
         font-size: 5em;
     }
