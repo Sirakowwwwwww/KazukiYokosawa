@@ -194,7 +194,7 @@ footer a:hover {
         display: inline;
     }
 
-    img {
+    .png {
         width: 50%;
         height: auto;
         margin: 0 auto;
@@ -271,7 +271,7 @@ footer a:hover {
         display: none;
     }
 
-    img {
+    .png {
         width: 100%;
         height: auto;
         margin: 0 auto;
